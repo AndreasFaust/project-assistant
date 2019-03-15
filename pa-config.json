@@ -1,0 +1,40 @@
+{
+    "project_name": "",
+    "local": {
+        "location": {
+            "root": "",
+            "api": "",
+            "frontend": "",
+            "publish": ""
+        },
+        "domain": "",
+        "db": {
+            "name": "",
+            "host": "",
+            "user": "",
+            "password": ""
+        },
+        "prod": {
+            "ssh": {
+                "user": "",
+                "host": ""
+            },
+            "location": {
+                "root": "",
+                "api": "",
+                "frontend": "",
+                "publish": ""
+            },
+            "domain": {
+                "dist": "",
+                "api": ""
+            },
+            "db": {
+                "name": "",
+                "host": "",
+                "user": "",
+                "password": ""
+            }
+        }
+    }
+}
