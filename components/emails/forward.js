@@ -29,13 +29,14 @@ async function promptAskEmail () {
 }
 
 function createQmailContent (user, emails) {
-  const emailsString = emails.join('\n')
+  const emailsString = emails.map(email => '&' + email).join('\n')
   return `
 # Weiterleitungen
 ${emailsString}
 
 # Mails an ${user} in einem separaten IMAP-Ordner
-./Maildir/.${user}/
+# ~/Maildir/.${user}/
+# ./Maildir/
 `
 }
 
